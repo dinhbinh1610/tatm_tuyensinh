@@ -1,0 +1,4 @@
+@color: #3c9;
+h1{
+color: @color;
+}

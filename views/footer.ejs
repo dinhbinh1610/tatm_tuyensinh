@@ -1,0 +1,62 @@
+<footer>
+		<div>
+			<div class="footer-list">
+			<div class="container">
+				<div class="about-center">
+				<h3>Hệ thống cơ sở</h3>
+				<p>Kết nối tiếng anh cơ sở Tây Sơn</p>
+				<p>Địa chỉ : 78 ngõ 178 Tây Sơn, Đống Đa, Hà Nội</p>
+				<p>Điện thoại : <span>0463 281 312</span></p>
+			</div>
+			<div class="list-item">
+				<h3>Thư viện học liệu</h3>
+				<ul>
+					<li>3000 từ vựng thông dụng</li>
+					<li>600 từ vựng Toeic Online</li>
+					<li>Bài giảng Online MsHoa</li>
+					<li>Bộ bài giảng Mr Lavie</li>
+					<li>Test Toeic miễn phí</li>
+				</ul>
+			</div>
+			<div class="list-item">
+				<ul>
+					<h3>Chỉ dẫn hệ thống</h3>
+					<li>Đăng ký học</li>
+					<li>Thi thử Toeic FREE</li>
+					<li>Hoạt động ngoại khóa</li>
+					<li>Chương trình học thử</li>
+					<li>Test kĩ năng</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<div class="footer-center">
+			<p><strong>Trung tâm anh ngữ</strong></p>
+			<h3>Kết nối tiếng anh</h3>
+			<p>Copyright © 2014 KSTN JSC - Phát triển bởi Phòng công nghệ Kỹ Sư Tài Năng KSTN Group</p>
+			<p>tiếng anh giao tiếp cơ bản - Nghe tiếng Anh giao tiếp - phần mềm học tiếng anh - luyenthi Toeic</p>
+		</div>
+		<br>
+		</div>
+	</footer>
+	<script>
+
+	function add_fixed(){
+		$('.menubar').addClass('add-fixed');
+	}
+
+	function rm_fixed(){
+		$('.menubar').removeClass('add-fixed');
+	}
+
+	$(window).on('scroll',function(){
+		var top = $(this).scrollTop();
+		if (top > 100){
+			add_fixed();
+		}
+		else{
+			rm_fixed();
+		}
+		});
+	
+</script>
